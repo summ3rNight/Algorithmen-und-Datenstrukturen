@@ -140,8 +140,8 @@ datenstrukturen-uebungen/
 ├── .gitignore                 # Git Ignore File
 ├── build.gradle               # Gradle Build Config
 ├── gradlew                    # Gradle Wrapper (Unix)
-├── gradlew.bat               # Gradle Wrapper (Windows)
-└── settings.gradle           # Projekt Settings
+├── gradlew.bat                # Gradle Wrapper (Windows)
+└── settings.gradle            # Projekt Settings
 ```
 
 ### Schritt 5: build.gradle anpassen
@@ -229,24 +229,6 @@ src/
 3. Name: `ListTest`
 4. Enter
 
-**Beispiel-Test erstellen:**
-
-```java
-package de.fernuni.datenstrukturen.lektion2;
-
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-
-class ListTest {
-    
-    @Test
-    void testListCreation() {
-        // TODO: Implement
-        assertTrue(true, "Placeholder test");
-    }
-}
-```
-
 ### Schritt 8: Tests ausführen
 
 **Option 1: Über UI**
@@ -329,14 +311,6 @@ src/test/java/.../lektion2/StackTest.java
 ```
 
 **2. Test schreiben:**
-```java
-@Test
-void testPushAndPop() {
-    Stack stack = new Stack<>();
-    stack.push(42);
-    assertEquals(42, stack.pop());
-}
-```
 
 **3. Test laufen lassen → Fehlschlag (Klasse existiert nicht)**
 
